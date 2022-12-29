@@ -1,0 +1,41 @@
+.list {
+  color: white;
+  list-style-type: none;
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: column;
+  padding: 0;
+}
+.li {
+  font-size: 30px;
+  font-weight: bold;
+  color: #1098ad;
+  border-bottom: 10px solid white;
+  width: 100%;
+  text-align: start;
+}
+
+.no-data {
+  color: red;
+  font-size: 30px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.loading {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  text-align: center;
+}
+
+.error {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 12px;
+  text-align: center;
+}

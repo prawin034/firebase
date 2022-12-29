@@ -1,0 +1,28 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.input {
+  width: 75%;
+  height: 3rem;
+  font-size: 30px;
+  color: #1098ad;
+  font-weight: 900;
+}
+
+.button {
+  width: 30%;
+  font-size: 30px;
+  background-color: #1098ad;
+  color: white;
+  padding: 1rem;
+  cursor: pointer;
+}
+.error {
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
